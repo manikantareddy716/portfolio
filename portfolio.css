@@ -1,0 +1,123 @@
+    body
+    {
+      padding: 1% 2% 1% 5%;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    a
+    {
+      text-decoration: none;
+      color: rgb(16, 155, 224);
+    }
+    .navbar
+    {
+      background-color: transparent;
+      position: fixed;
+      width: 80%;
+    }
+    .navbar-brand ,h1, h2
+    {
+      font-weight: bold;
+    }
+    .navbar-brand::first-letter
+    {
+      color: rgb(115, 22, 190);
+    }
+    .intro
+    {
+      margin-top: 15%;
+    }
+    .intro p
+    {
+      width: 60%;
+      color:#372a2a ;
+    }
+    .hire-btn
+    {
+      background-color:  rgb(115, 22, 190);
+      color: white;
+    }
+    .project-btn
+    {
+      color:  rgb(115, 22, 190);
+      border: 2px solid rgb(115, 22, 190);
+      margin-left: 20px;
+    }
+    .linkedin , .github
+    {
+      color: rgb(115, 22, 190);
+      font-size:x-large ;
+      margin: 10px;
+    }
+    .icons
+    {
+      margin-top: 10%;
+    }
+
+    .project-card {
+      border: none;
+      background: linear-gradient(to bottom right, #088ae7, #72a4d3);
+      transition: transform 0.3s ease;
+      color: #222222;
+    }
+
+    .project-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    form input, form textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+    }
+
+    form button {
+      background: #0072ff;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: #00bcd4;
+    }
+    footer
+    {
+      margin-top: 10%;
+      text-align: center;
+    }
+  
+    /* Mobile */
+@media (max-width: 600px) {
+  body {
+    background: lightblue;
+    font-size: 14px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    background: lightgreen;
+    font-size: 16px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+  body {
+    background: aqua;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./portfolio.css">
+</head>
+<body>
+<!--Navigation bar-->
+  <nav class="navbar">
+    <div class="navbar-brand">Mani.</div>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!--Home-->
+  <section class="intro" id="home">
+    <h1>Hi, I'm <span style="color: rgb(115, 22, 190);">Mani Kanta Reddy</span></h1>
+    <h2>Web Deveoloper | Full Stack Deveoloper</h2>
+    <p>
+      "I love turning ideas into interactive and visually stunning web applications. With a strong foundation in frontend development and experience in full stack projects, I aim to build designs that truly stand out."
+    </p>
+    <button class="btn hire-btn"
+    
+    ><a href="#contact">Hire Me</a></button>
+    <button class="btn project-btn"><a href="#projects">See Projects</a></button>
+    
+    <div class="icons">
+    <a class="bi bi-linkedin linkedin" href="https://www.linkedin.com/in/manikantareddyb" target="_blank"></a>
+    <a class="bi bi-github github" href="https://github.com/manikantareddy716" target="_blank"></a>
+  </div>
+  </section>
+  
+  <!--About-->
+  <section id="about">
+    <h1>About</h1>
+    Hello! I'm B. Manikanta Reddy, an enthusiastic and self-motivated developer with a strong interest in building responsive, user-centric websites. I recently completed training in Python Full Stack Development and have hands-on experience in HTML5, CSS3, JavaScript (ES6+), Python and SQL. <br><br>
+
+    I’ve built a range of personal projects, including a portfolio website and a Flipkart landing page clone, where I applied modern frontend practices like Flexbox, CSS Grid, and responsive design. I enjoy solving real-world problems through code and am always exploring new tools and technologies to grow as a developer. <br><br>
+
+    I'm currently looking for an opportunity to contribute to a dynamic development team, apply my skills in real-world projects, and continue learning every day. <br><br>
+
+    I have mentinrd my skills and projects in detail below please have a look and contact me if intrested.
+    
+  </section>
+
+  <!--skills-->
+  <section id="skills" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Technologies I Use</h2>
+      <div class="d-flex flex-wrap justify-content-center gap-4 fs-4">
+        <span class="badge bg-secondary p-3">HTML5</span>
+        <span class="badge bg-secondary p-3">CSS3</span>
+        <span class="badge bg-secondary p-3">Bootstrap</span>
+        <span class="badge bg-secondary p-3">JavaScript</span>
+        <span class="badge bg-secondary p-3">Python </span>
+        <span class="badge bg-secondary p-3">SQL</span>
+      </div>
+    </div>
+  </section>
+
+  <!--projects-->
+  <section id="projects" class="py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">Projects</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card project-card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Restaurant Menu</h5>
+                <p class="card-text">Responsive digital restaurant menu built using HTML, CSS, Bootstrap and JavaScript. Smooth filtering and interactive layout.</p>
+                <a href="#" class="btn btn-outline-primary btn-sm mt-2">Live Preview</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project-card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Flipkart Clone</h5>
+                <p class="card-text">A mini e-commerce frontend clone of Flipkart with grid layout, product cards, and Bootstrap modals.</p>
+                <a href="#" class="btn btn-outline-primary btn-sm mt-2">Live Preview</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project-card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Amazon Clone</h5>
+                <p class="card-text">Frontend-only Amazon clone with nav bar, product slider, and responsive layout using Bootstrap and JS.</p>
+                <a href="#" class="btn btn-outline-primary btn-sm mt-2">Live Preview</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--contact-->
+  <section id="contact"     class="py-5 my-5">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4">Get In Touch</h2>
+        <p class="mb-2 fs-5">📧 manikantareddy0604@gmail.com</p>
+        <p class="mb-2 fs-5">📞 6300114726</p>
+        <p class="mb-4 fs-5">🔗 <a href="https://www.linkedin.com/in/manikantareddyb" target="_blank" class="text-decoration-none text-primary">LinkedIn Profile</a>
+          <br>
+        🔗 <a href="" target="_blank" class="text-decoration-none text-primary">Github</a></p>
+        <a href="mailto:manikantareddy0604@gmail.com" class="btn btn-primary px-4 py-2">Email Me</a>
+      </div>
+  </section>
+
+  <!--feedback-->
+  <section id="feedback">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" id="contact-name" required />
+      <input type="email" name="email" placeholder="Your Email" id="contact-mail" required />
+      <textarea name="message" placeholder="Your Message" id="contact-msg" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!--footer-->
+  <footer>
+    <p>&copy; 2025 <a href ="mailto:manikantareedy0604@gmail.com" target="_blank">@Manikanta Reddy</a>. All rights reserved.</p>
+  </footer>
+</body>
+<script src="./portfolio.js"></script>
+</html>
